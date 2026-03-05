@@ -1,3 +1,4 @@
+{% load static %}
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -16,16 +17,16 @@
 
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/static/css/vendor/bootstrap.min.css">
-    <link rel="stylesheet" href="/static/css/vendor/font-awesome.css">
-    <link rel="stylesheet" href="/static/css/vendor/flaticon/flaticon.css">
-    <link rel="stylesheet" href="/static/css/vendor/slick.css">
-    <link rel="stylesheet" href="/static/css/vendor/slick-theme.css">
-    <link rel="stylesheet" href="/static/css/vendor/jquery-ui.min.css">
-    <link rel="stylesheet" href="/static/css/vendor/sal.css">
-    <link rel="stylesheet" href="/static/css/vendor/magnific-popup.css">
-    <link rel="stylesheet" href="/static/css/vendor/base.css">
-    <link rel="stylesheet" href="/static/css/style.min.css">
+    <link rel="stylesheet" href="{% static 'css/vendor/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/vendor/font-awesome.css' %}">
+    <link rel="stylesheet" href="{% static 'css/vendor/flaticon/flaticon.css' %}">
+    <link rel="stylesheet" href="{% static 'css/vendor/slick.css' %}">
+    <link rel="stylesheet" href="{% static 'css/vendor/slick-theme.css' %}">
+    <link rel="stylesheet" href="{% static 'css/vendor/jquery-ui.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/vendor/sal.css' %}">
+    <link rel="stylesheet" href="{% static 'css/vendor/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'css/vendor/base.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.min.css' %}">
 
 </head>
 
@@ -37,7 +38,7 @@
         <div class="signin-header">
             <div class="row align-items-center">
                 <div class="col-sm-4">
-                    <a href="index.html" class="site-logo"><img src="./assets/images/logo/logo.png" alt="logo"></a>
+                    <a href="index.html" class="site-logo"><img src="{% static 'images/logo/logo.png' %}" alt="logo"></a>
                 </div>
                 <div class="col-sm-8">
                     <div class="singin-header-btn">
@@ -83,27 +84,27 @@
     <!-- JS
 ============================================ -->
     <!-- Modernizer JS -->
-    <script src="/static/js/vendor/modernizr.min.js"></script>
+    <script src="{% static 'js/vendor/modernizr.min.js' %}"></script>
     <!-- jQuery JS -->
-    <script src="/static/js/vendor/jquery.js"></script>
+    <script src="{% static 'js/vendor/jquery.js' %}"></script>
     <!-- Bootstrap JS -->
-    <script src="/static/js/vendor/popper.min.js"></script>
-    <script src="/static/js/vendor/bootstrap.min.js"></script>
-    <script src="/static/js/vendor/slick.min.js"></script>
-    <script src="/static/js/vendor/js.cookie.js"></script>
-    <!-- <script src="/static/js/vendor/jquery.style.switcher.js"></script> -->
-    <script src="/static/js/vendor/jquery-ui.min.js"></script>
-    <script src="/static/js/vendor/jquery.ui.touch-punch.min.js"></script>
-    <script src="/static/js/vendor/jquery.countdown.min.js"></script>
-    <script src="/static/js/vendor/sal.js"></script>
-    <script src="/static/js/vendor/jquery.magnific-popup.min.js"></script>
-    <script src="/static/js/vendor/imagesloaded.pkgd.min.js"></script>
-    <script src="/static/js/vendor/isotope.pkgd.min.js"></script>
-    <script src="/static/js/vendor/counterup.js"></script>
-    <script src="/static/js/vendor/waypoints.min.js"></script>
+    <script src="{% static 'js/vendor/popper.min.js' %}"></script>
+    <script src="{% static 'js/vendor/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/vendor/slick.min.js' %}"></script>
+    <script src="{% static 'js/vendor/js.cookie.js' %}"></script>
+    <!-- <script src="{% static 'js/vendor/jquery.style.switcher.js' %}"></script> -->
+    <script src="{% static 'js/vendor/jquery-ui.min.js' %}"></script>
+    <script src="{% static 'js/vendor/jquery.ui.touch-punch.min.js' %}"></script>
+    <script src="{% static 'js/vendor/jquery.countdown.min.js' %}"></script>
+    <script src="{% static 'js/vendor/sal.js' %}"></script>
+    <script src="{% static 'js/vendor/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'js/vendor/imagesloaded.pkgd.min.js' %}"></script>
+    <script src="{% static 'js/vendor/isotope.pkgd.min.js' %}"></script>
+    <script src="{% static 'js/vendor/counterup.js' %}"></script>
+    <script src="{% static 'js/vendor/waypoints.min.js' %}"></script>
 
     <!-- Main JS -->
-    <script src="/static/js/main.js"></script>
+    <script src="{% static 'js/main.js' %}"></script>
 
 </body>
 

@@ -3,10 +3,40 @@ Views for serving frontend templates
 """
 from django.shortcuts import render
 from django.views.generic import TemplateView
+from django.http import Http404
+from django.template.loader import get_template
+from django.template.exceptions import TemplateDoesNotExist
+
+
+class GenericTemplateView(TemplateView):
+    """Generic view to serve templates by filename"""
+    
+    def get_template_names(self):
+        filename = self.kwargs.get('filename', '')
+        # Ensure the filename has .html extension
+        if not filename.endswith('.html'):
+            filename += '.html'
+        return [filename]
+    
+    def get(self, request, *args, **kwargs):
+        # Check if template exists, otherwise raise 404
+        try:
+            get_template(self.get_template_names()[0])
+        except TemplateDoesNotExist:
+            raise Http404("Template not found")
+        return super().get(request, *args, **kwargs)
 
 
 class HomeView(TemplateView):
     template_name = 'index.html'
+
+
+class Home1View(TemplateView):
+    template_name = 'index-1.html'
+
+
+class Home6View(TemplateView):
+    template_name = 'index-6.html'
 
 
 class ShopView(TemplateView):

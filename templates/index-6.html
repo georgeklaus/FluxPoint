@@ -1,3 +1,4 @@
+{% load static %} 
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -16,16 +17,16 @@
 
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/static/css/vendor/bootstrap.min.css">
-    <link rel="stylesheet" href="/static/css/vendor/font-awesome.css">
-    <link rel="stylesheet" href="/static/css/vendor/flaticon/flaticon.css">
-    <link rel="stylesheet" href="/static/css/vendor/slick.css">
-    <link rel="stylesheet" href="/static/css/vendor/slick-theme.css">
-    <link rel="stylesheet" href="/static/css/vendor/jquery-ui.min.css">
-    <link rel="stylesheet" href="/static/css/vendor/sal.css">
-    <link rel="stylesheet" href="/static/css/vendor/magnific-popup.css">
-    <link rel="stylesheet" href="/static/css/vendor/base.css">
-    <link rel="stylesheet" href="/static/css/style.min.css">
+    <link rel="stylesheet" href="{% static 'css/vendor/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/vendor/font-awesome.css' %}">
+    <link rel="stylesheet" href="{% static 'css/vendor/flaticon/flaticon.css' %}">
+    <link rel="stylesheet" href="{% static 'css/vendor/slick.css' %}">
+    <link rel="stylesheet" href="{% static 'css/vendor/slick-theme.css' %}">
+    <link rel="stylesheet" href="{% static 'css/vendor/jquery-ui.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/vendor/sal.css' %}">
+    <link rel="stylesheet" href="{% static 'css/vendor/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'css/vendor/base.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.min.css' %}">
 
 </head>
 
@@ -74,7 +75,7 @@
                                 <ul class="nav-menu-list">
                                     <li>
                                         <a href="#" class="nav-link has-megamenu">
-                                            <span class="menu-icon"><img src="./assets/images/product/categories/cat-01.png" alt="Department"></span>
+                                            <span class="menu-icon"><img src="{% static 'images/product/categories/cat-01.png' %}" alt="Department"></span>
                                             <span class="menu-text">Fashion</span>
                                         </a>
                                         <div class="department-megamenu">
@@ -120,16 +121,16 @@
                                                     <h3 class="featured-heading">Featured</h3>
                                                     <div class="product-list">
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature1.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature1.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature2.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature2.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature3.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature3.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature4.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature4.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                     </div>
                                                     <a href="#" class="axil-btn btn-bg-primary">See All Offers</a>
@@ -139,7 +140,7 @@
                                     </li>
                                     <li>
                                         <a href="#" class="nav-link has-megamenu">
-                                            <span class="menu-icon"><img src="./assets/images/product/categories/cat-02.png" alt="Department"></span>
+                                            <span class="menu-icon"><img src="{% static 'images/product/categories/cat-02.png' %}" alt="Department"></span>
                                             <span class="menu-text">Electronics</span>
                                         </a>
                                         <div class="department-megamenu">
@@ -219,16 +220,16 @@
                                                     <h3 class="featured-heading">Featured</h3>
                                                     <div class="product-list">
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature1.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature1.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature2.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature2.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature3.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature3.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature4.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature4.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                     </div>
                                                     <a href="#" class="axil-btn btn-bg-primary">See All Offers</a>
@@ -238,7 +239,7 @@
                                     </li>
                                     <li>
                                         <a href="#" class="nav-link has-megamenu">
-                                            <span class="menu-icon"><img src="./assets/images/product/categories/cat-03.png" alt="Department"></span>
+                                            <span class="menu-icon"><img src="{% static 'images/product/categories/cat-03.png' %}" alt="Department"></span>
                                             <span class="menu-text">Home Decor</span>
                                         </a>
                                         <div class="department-megamenu">
@@ -284,16 +285,16 @@
                                                     <h3 class="featured-heading">Featured</h3>
                                                     <div class="product-list">
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature1.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature1.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature2.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature2.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature3.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature3.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature4.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature4.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                     </div>
                                                     <a href="#" class="axil-btn btn-bg-primary">See All Offers</a>
@@ -303,7 +304,7 @@
                                     </li>
                                     <li>
                                         <a href="#" class="nav-link">
-                                            <span class="menu-icon"><img src="./assets/images/product/categories/cat-04.png" alt="Department"></span>
+                                            <span class="menu-icon"><img src="{% static 'images/product/categories/cat-04.png' %}" alt="Department"></span>
                                             <span class="menu-text">Medicine</span>
                                         </a>
                                         <div class="department-megamenu">
@@ -349,16 +350,16 @@
                                                     <h3 class="featured-heading">Featured</h3>
                                                     <div class="product-list">
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature1.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature1.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature2.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature2.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature3.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature3.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature4.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature4.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                     </div>
                                                     <a href="#" class="axil-btn btn-bg-primary">See All Offers</a>
@@ -368,7 +369,7 @@
                                     </li>
                                     <li>
                                         <a href="#" class="nav-link">
-                                            <span class="menu-icon"><img src="./assets/images/product/categories/cat-05.png" alt="Department"></span>
+                                            <span class="menu-icon"><img src="{% static 'images/product/categories/cat-05.png' %}" alt="Department"></span>
                                             <span class="menu-text">Furniture</span>
                                         </a>
                                         <div class="department-megamenu">
@@ -414,16 +415,16 @@
                                                     <h3 class="featured-heading">Featured</h3>
                                                     <div class="product-list">
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature1.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature1.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature2.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature2.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature3.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature3.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature4.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature4.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                     </div>
                                                     <a href="#" class="axil-btn btn-bg-primary">See All Offers</a>
@@ -433,7 +434,7 @@
                                     </li>
                                     <li>
                                         <a href="#" class="nav-link">
-                                            <span class="menu-icon"><img src="./assets/images/product/categories/cat-06.png" alt="Department"></span>
+                                            <span class="menu-icon"><img src="{% static 'images/product/categories/cat-06.png' %}" alt="Department"></span>
                                             <span class="menu-text">Crafts</span>
                                         </a>
                                         <div class="department-megamenu">
@@ -479,16 +480,16 @@
                                                     <h3 class="featured-heading">Featured</h3>
                                                     <div class="product-list">
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature1.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature1.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature2.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature2.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature3.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature3.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature4.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature4.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                     </div>
                                                     <a href="#" class="axil-btn btn-bg-primary">See All Offers</a>
@@ -498,7 +499,7 @@
                                     </li>
                                     <li>
                                         <a href="#" class="nav-link">
-                                            <span class="menu-icon"><img src="./assets/images/product/categories/cat-07.png" alt="Department"></span>
+                                            <span class="menu-icon"><img src="{% static 'images/product/categories/cat-07.png' %}" alt="Department"></span>
                                             <span class="menu-text">DRY FOODS AND CEREALS</span>
                                         </a>
                                         <div class="department-megamenu">
@@ -591,16 +592,16 @@
                                                     <h3 class="featured-heading">Featured</h3>
                                                     <div class="product-list">
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature1.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature1.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature2.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature2.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature3.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature3.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature4.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature4.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                     </div>
                                                     <a href="#" class="axil-btn btn-bg-primary">See All Offers</a>
@@ -610,7 +611,7 @@
                                     </li>
                                     <li>
                                         <a href="#" class="nav-link">
-                                            <span class="menu-icon"><img src="./assets/images/product/categories/cat-07.png" alt="Department"></span>
+                                            <span class="menu-icon"><img src="{% static 'images/product/categories/cat-07.png' %}" alt="Department"></span>
                                             <span class="menu-text">HOUSEHOLD ESSENTIALS</span>
                                         </a>
                                         <div class="department-megamenu">
@@ -737,16 +738,16 @@
                                                     <h3 class="featured-heading">Featured</h3>
                                                     <div class="product-list">
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature1.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature1.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature2.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature2.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature3.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature3.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature4.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature4.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                     </div>
                                                     <a href="#" class="axil-btn btn-bg-primary">See All Offers</a>
@@ -756,7 +757,7 @@
                                     </li>
                                     <li>
                                         <a href="#" class="nav-link">
-                                            <span class="menu-icon"><img src="./assets/images/product/categories/cat-07.png" alt="Department"></span>
+                                            <span class="menu-icon"><img src="{% static 'images/product/categories/cat-07.png' %}" alt="Department"></span>
                                             <span class="menu-text">Beverages</span>
                                         </a>
                                         <div class="department-megamenu">
@@ -803,16 +804,16 @@
                                                     <h3 class="featured-heading">Featured</h3>
                                                     <div class="product-list">
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature1.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature1.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature2.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature2.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature3.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature3.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature4.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature4.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                     </div>
                                                     <a href="#" class="axil-btn btn-bg-primary">See All Offers</a>
@@ -822,7 +823,7 @@
                                     </li>
                                     <li>
                                         <a href="#" class="nav-link">
-                                            <span class="menu-icon"><img src="./assets/images/product/categories/cat-08.png" alt="Department"></span>
+                                            <span class="menu-icon"><img src="{% static 'images/product/categories/cat-08.png' %}" alt="Department"></span>
                                             <span class="menu-text">CLOTHING $ APPAREL</span>
                                         </a>
                                         <div class="department-megamenu">
@@ -898,16 +899,16 @@
                                                     <h3 class="featured-heading">Featured</h3>
                                                     <div class="product-list">
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature1.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature1.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature2.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature2.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature3.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature3.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                         <div class="item-product">
-                                                            <a href="#"><img src="./assets/images/product/product-feature4.png" alt="Featured Product"></a>
+                                                            <a href="#"><img src="{% static 'images/product/product-feature4.png' %}" alt="Featured Product"></a>
                                                         </div>
                                                     </div>
                                                     <a href="#" class="axil-btn btn-bg-primary">See All Offers</a>
@@ -926,7 +927,7 @@
                             <button class="mobile-close-btn mobile-nav-toggler"><i class="fas fa-times"></i></button>
                             <div class="mobile-nav-brand">
                                 <a href="index.html" class="logo">
-                                    <img src="/static/images/logo/logo.png" alt="Site Logo">
+                                    <img src="{% static 'images/logo/logo.png' %}" alt="Site Logo">
                                 </a>
                             </div>
                             <ul class="mainmenu">
@@ -1069,7 +1070,7 @@
                                             </div>
                                         </div>
                                         <div class="main-slider-thumb">
-                                            <img src="/static/images/product/product-9.png" alt="Product">
+                                            <img src="{% static 'images/product/product-9.png' %}" alt="Product">
                                         </div>
                                     </div>
                                     <div class="single-slide slick-slide">
@@ -1081,7 +1082,7 @@
                                             </div>
                                         </div>
                                         <div class="main-slider-thumb">
-                                            <img src="/static/images/product/product-8.png" alt="Product">
+                                            <img src="{% static 'images/product/product-8.png' %}" alt="Product">
                                         </div>
                                     </div>
                                     <div class="single-slide slick-slide">
@@ -1093,7 +1094,7 @@
                                             </div>
                                         </div>
                                         <div class="main-slider-thumb">
-                                            <img src="/static/images/product/product-7.png" alt="Product">
+                                            <img src="{% static 'images/product/product-7.png' %}" alt="Product">
                                         </div>
                                     </div>
                                 </div>
@@ -1103,7 +1104,7 @@
                             <div class="slider-product-box">
                                 <div class="product-thumb">
                                     <a href="single-product.html">
-                                        <img src="/static/images/product/product-41.png" alt="Product">
+                                        <img src="{% static 'images/product/product-41.png' %}" alt="Product">
                                     </a>
                                 </div>
                                 <h6 class="title"><a href="single-product.html">Stylish Leather Bag</a></h6>
@@ -1132,7 +1133,7 @@
                             <div class="axil-product product-style-four">
                                 <div class="thumbnail">
                                     <a href="single-product.html">
-                                        <img data-sal="zoom-out" data-sal-delay="100" data-sal-duration="1500" src="/static/images/product/electric/product-02.png" alt="Product Images">
+                                        <img data-sal="zoom-out" data-sal-delay="100" data-sal-duration="1500" src="{% static 'images/product/electric/product-02.png' %}" alt="Product Images">
                                     </a>
                                     <div class="label-block label-right">
                                         <div class="product-badget">20% OFF</div>
@@ -1161,7 +1162,7 @@
                             <div class="axil-product product-style-four">
                                 <div class="thumbnail">
                                     <a href="single-product.html">
-                                        <img data-sal="zoom-out" data-sal-delay="200" data-sal-duration="1500" src="/static/images/product/fashion/product-19.png" alt="Product Images">
+                                        <img data-sal="zoom-out" data-sal-delay="200" data-sal-duration="1500" src="{% static 'images/product/fashion/product-19.png' %}" alt="Product Images">
                                     </a>
                                     <div class="product-hover-action">
                                         <ul class="cart-action">
@@ -1187,7 +1188,7 @@
                             <div class="axil-product product-style-four">
                                 <div class="thumbnail">
                                     <a href="single-product.html">
-                                        <img data-sal="zoom-out" data-sal-delay="300" data-sal-duration="1500" src="/static/images/product/fashion/product-6.png" alt="Product Images">
+                                        <img data-sal="zoom-out" data-sal-delay="300" data-sal-duration="1500" src="{% static 'images/product/fashion/product-6.png' %}" alt="Product Images">
                                     </a>
                                     <div class="label-block label-right">
                                         <div class="product-badget">50% OFF</div>
@@ -1216,7 +1217,7 @@
                             <div class="axil-product product-style-four">
                                 <div class="thumbnail">
                                     <a href="single-product.html">
-                                        <img data-sal="zoom-out" data-sal-delay="400" data-sal-duration="1500" src="/static/images/product/jewellery/product-4.png" alt="Product Images">
+                                        <img data-sal="zoom-out" data-sal-delay="400" data-sal-duration="1500" src="{% static 'images/product/jewellery/product-4.png' %}" alt="Product Images">
                                     </a>
                                     <div class="label-block label-right">
                                         <div class="product-badget">30% OFF</div>
@@ -1245,7 +1246,7 @@
                             <div class="axil-product product-style-four">
                                 <div class="thumbnail">
                                     <a href="single-product.html">
-                                        <img data-sal="zoom-out" data-sal-delay="100" data-sal-duration="1500" src="/static/images/product/furniture/product-5.png" alt="Product Images">
+                                        <img data-sal="zoom-out" data-sal-delay="100" data-sal-duration="1500" src="{% static 'images/product/furniture/product-5.png' %}" alt="Product Images">
                                     </a>
                                     <div class="product-hover-action">
                                         <ul class="cart-action">
@@ -1272,7 +1273,7 @@
                             <div class="axil-product product-style-four">
                                 <div class="thumbnail">
                                     <a href="single-product.html">
-                                        <img data-sal="zoom-out" data-sal-delay="200" data-sal-duration="1500" src="/static/images/product/electric/product-04.png" alt="Product Images">
+                                        <img data-sal="zoom-out" data-sal-delay="200" data-sal-duration="1500" src="{% static 'images/product/electric/product-04.png' %}" alt="Product Images">
                                     </a>
                                     <div class="label-block label-right">
                                         <div class="product-badget">50% OFF</div>
@@ -1301,7 +1302,7 @@
                             <div class="axil-product product-style-four">
                                 <div class="thumbnail">
                                     <a href="single-product.html">
-                                        <img data-sal="zoom-out" data-sal-delay="300" data-sal-duration="1500" src="/static/images/product/furniture/product-4.png" alt="Product Images">
+                                        <img data-sal="zoom-out" data-sal-delay="300" data-sal-duration="1500" src="{% static 'images/product/furniture/product-4.png' %}" alt="Product Images">
                                     </a>
                                     <div class="label-block label-right">
                                         <div class="product-badget">30% OFF</div>
@@ -1330,7 +1331,7 @@
                             <div class="axil-product product-style-four">
                                 <div class="thumbnail">
                                     <a href="single-product.html">
-                                        <img data-sal="zoom-out" data-sal-delay="400" data-sal-duration="1500" src="/static/images/product/fashion/product-3.png" alt="Product Images">
+                                        <img data-sal="zoom-out" data-sal-delay="400" data-sal-duration="1500" src="{% static 'images/product/fashion/product-3.png' %}" alt="Product Images">
                                     </a>
                                     <div class="product-hover-action">
                                         <ul class="cart-action">
@@ -1369,7 +1370,7 @@
                     <div class="slick-single-layout">
                         <div class="categrie-product" data-sal="zoom-out" data-sal-delay="200" data-sal-duration="500">
                             <a href="#">
-                                <img class="img-fluid" src="./assets/images/product/categories/elec-4.png" alt="product categorie">
+                                <img class="img-fluid" src="{% static 'images/product/categories/elec-4.png' %}" alt="product categorie">
                                 <h6 class="cat-title">Phones</h6>
                             </a>
                         </div>
@@ -1379,7 +1380,7 @@
                     <div class="slick-single-layout">
                         <div class="categrie-product" data-sal="zoom-out" data-sal-delay="300" data-sal-duration="500">
                             <a href="#">
-                                <img class="img-fluid" src="./assets/images/product/categories/elec-5.png" alt="product categorie">
+                                <img class="img-fluid" src="{% static 'images/product/categories/elec-5.png' %}" alt="product categorie">
                                 <h6 class="cat-title">Computers</h6>
                             </a>
                         </div>
@@ -1389,7 +1390,7 @@
                     <div class="slick-single-layout">
                         <div class="categrie-product" data-sal="zoom-out" data-sal-delay="400" data-sal-duration="500">
                             <a href="#">
-                                <img class="img-fluid" src="./assets/images/product/categories/elec-11.png" alt="product categorie">
+                                <img class="img-fluid" src="{% static 'images/product/categories/elec-11.png' %}" alt="product categorie">
                                 <h6 class="cat-title">Accessories</h6>
                             </a>
                         </div>
@@ -1399,7 +1400,7 @@
                     <div class="slick-single-layout">
                         <div class="categrie-product" data-sal="zoom-out" data-sal-delay="500" data-sal-duration="500">
                             <a href="#">
-                                <img class="img-fluid" src="./assets/images/product/categories/elec-6.png" alt="product categorie">
+                                <img class="img-fluid" src="{% static 'images/product/categories/elec-6.png' %}" alt="product categorie">
                                 <h6 class="cat-title">Laptops</h6>
                             </a>
                         </div>
@@ -1409,7 +1410,7 @@
                     <div class="slick-single-layout">
                         <div class="categrie-product" data-sal="zoom-out" data-sal-delay="600" data-sal-duration="500">
                             <a href="#">
-                                <img class="img-fluid" src="./assets/images/product/categories/elec-2.png" alt="product categorie">
+                                <img class="img-fluid" src="{% static 'images/product/categories/elec-2.png' %}" alt="product categorie">
                                 <h6 class="cat-title">Monitors</h6>
                             </a>
                         </div>
@@ -1419,7 +1420,7 @@
                     <div class="slick-single-layout">
                         <div class="categrie-product" data-sal="zoom-out" data-sal-delay="700" data-sal-duration="500">
                             <a href="#">
-                                <img class="img-fluid" src="./assets/images/product/categories/elec-7.png" alt="product categorie">
+                                <img class="img-fluid" src="{% static 'images/product/categories/elec-7.png' %}" alt="product categorie">
                                 <h6 class="cat-title">Networking</h6>
                             </a>
                         </div>
@@ -1429,7 +1430,7 @@
                     <div class="slick-single-layout">
                         <div class="categrie-product" data-sal="zoom-out" data-sal-delay="800" data-sal-duration="500">
                             <a href="#">
-                                <img class="img-fluid" src="./assets/images/product/categories/elec-8.png" alt="product categorie">
+                                <img class="img-fluid" src="{% static 'images/product/categories/elec-8.png' %}" alt="product categorie">
                                 <h6 class="cat-title">PC Gaming</h6>
                             </a>
                         </div>
@@ -1439,7 +1440,7 @@
                     <div class="slick-single-layout">
                         <div class="categrie-product">
                             <a href="#">
-                                <img class="img-fluid" src="./assets/images/product/categories/elec-1.png" alt="product categorie">
+                                <img class="img-fluid" src="{% static 'images/product/categories/elec-1.png' %}" alt="product categorie">
                                 <h6 class="cat-title">Smartwatches</h6>
                             </a>
                         </div>
@@ -1449,7 +1450,7 @@
                     <div class="slick-single-layout">
                         <div class="categrie-product">
                             <a href="#">
-                                <img class="img-fluid" src="./assets/images/product/categories/elec-9.png" alt="product categorie">
+                                <img class="img-fluid" src="{% static 'images/product/categories/elec-9.png' %}" alt="product categorie">
                                 <h6 class="cat-title">Headphones</h6>
                             </a>
                         </div>
@@ -1459,7 +1460,7 @@
                     <div class="slick-single-layout">
                         <div class="categrie-product">
                             <a href="#">
-                                <img class="img-fluid" src="./assets/images/product/categories/elec-10.png" alt="product categorie">
+                                <img class="img-fluid" src="{% static 'images/product/categories/elec-10.png' %}" alt="product categorie">
                                 <h6 class="cat-title">Camera & Photo</h6>
                             </a>
                         </div>
@@ -1469,7 +1470,7 @@
                     <div class="slick-single-layout">
                         <div class="categrie-product">
                             <a href="#">
-                                <img class="img-fluid" src="./assets/images/product/categories/elec-8.png" alt="product categorie">
+                                <img class="img-fluid" src="{% static 'images/product/categories/elec-8.png' %}" alt="product categorie">
                                 <h6 class="cat-title">Video Games</h6>
                             </a>
                         </div>
@@ -1479,7 +1480,7 @@
                     <div class="slick-single-layout">
                         <div class="categrie-product">
                             <a href="#">
-                                <img class="img-fluid" src="./assets/images/product/categories/elec-1.png" alt="product categorie">
+                                <img class="img-fluid" src="{% static 'images/product/categories/elec-1.png' %}" alt="product categorie">
                                 <h6 class="cat-title">Sports</h6>
                             </a>
                         </div>
@@ -1503,7 +1504,7 @@
                             <div class="axil-product product-style-three">
                                 <div class="thumbnail">
                                     <a href="single-product.html">
-                                        <img data-sal="fade" data-sal-delay="100" data-sal-duration="1500" src="/static/images/product/electric/product-05.png" alt="Product Images">
+                                        <img data-sal="fade" data-sal-delay="100" data-sal-duration="1500" src="{% static 'images/product/electric/product-05.png' %}" alt="Product Images">
                                     </a>
                                     <div class="product-hover-action">
                                         <ul class="cart-action">
@@ -1539,7 +1540,7 @@
                             <div class="axil-product product-style-three">
                                 <div class="thumbnail">
                                     <a href="single-product.html">
-                                        <img data-sal="fade" data-sal-delay="200" data-sal-duration="1500" src="/static/images/product/fashion/product-15.png" alt="Product Images">
+                                        <img data-sal="fade" data-sal-delay="200" data-sal-duration="1500" src="{% static 'images/product/fashion/product-15.png' %}" alt="Product Images">
                                     </a>
                                     <div class="product-hover-action">
                                         <ul class="cart-action">
@@ -1575,7 +1576,7 @@
                             <div class="axil-product product-style-three">
                                 <div class="thumbnail">
                                     <a href="single-product.html">
-                                        <img data-sal="fade" data-sal-delay="300" data-sal-duration="1500" src="/static/images/product/furniture/product-24.png" alt="Product Images">
+                                        <img data-sal="fade" data-sal-delay="300" data-sal-duration="1500" src="{% static 'images/product/furniture/product-24.png' %}" alt="Product Images">
                                     </a>
                                     <div class="product-hover-action">
                                         <ul class="cart-action">
@@ -1610,7 +1611,7 @@
                             <div class="axil-product product-style-three">
                                 <div class="thumbnail">
                                     <a href="single-product.html">
-                                        <img data-sal="fade" data-sal-delay="100" data-sal-duration="1500" src="/static/images/product/jewellery/product-10.png" alt="Product Images">
+                                        <img data-sal="fade" data-sal-delay="100" data-sal-duration="1500" src="{% static 'images/product/jewellery/product-10.png' %}" alt="Product Images">
                                     </a>
                                     <div class="product-hover-action">
                                         <ul class="cart-action">
@@ -1645,7 +1646,7 @@
                             <div class="axil-product product-style-three">
                                 <div class="thumbnail">
                                     <a href="single-product.html">
-                                        <img data-sal="fade" data-sal-delay="400" data-sal-duration="1500" src="/static/images/product/fashion/product-25.png" alt="Product Images">
+                                        <img data-sal="fade" data-sal-delay="400" data-sal-duration="1500" src="{% static 'images/product/fashion/product-25.png' %}" alt="Product Images">
                                     </a>
                                     <div class="product-hover-action">
                                         <ul class="cart-action">
@@ -1681,7 +1682,7 @@
                             <div class="axil-product product-style-three">
                                 <div class="thumbnail">
                                     <a href="single-product.html">
-                                        <img data-sal="fade" data-sal-delay="200" data-sal-duration="1500" src="/static/images/product/fashion/product-10.png" alt="Product Images">
+                                        <img data-sal="fade" data-sal-delay="200" data-sal-duration="1500" src="{% static 'images/product/fashion/product-10.png' %}" alt="Product Images">
                                     </a>
                                     <div class="product-hover-action">
                                         <ul class="cart-action">
@@ -1716,7 +1717,7 @@
                             <div class="axil-product product-style-three">
                                 <div class="thumbnail">
                                     <a href="single-product.html">
-                                        <img data-sal="fade" data-sal-delay="300" data-sal-duration="1500" src="/static/images/product/jewellery/product-12.png" alt="Product Images">
+                                        <img data-sal="fade" data-sal-delay="300" data-sal-duration="1500" src="{% static 'images/product/jewellery/product-12.png' %}" alt="Product Images">
                                     </a>
                                     <div class="product-hover-action">
                                         <ul class="cart-action">
@@ -1752,7 +1753,7 @@
                             <div class="axil-product product-style-three">
                                 <div class="thumbnail">
                                     <a href="single-product.html">
-                                        <img data-sal="fade" data-sal-delay="400" data-sal-duration="1500" src="/static/images/product/fashion/product-13.png" alt="Product Images">
+                                        <img data-sal="fade" data-sal-delay="400" data-sal-duration="1500" src="{% static 'images/product/fashion/product-13.png' %}" alt="Product Images">
                                     </a>
                                     <div class="product-hover-action">
                                         <ul class="cart-action">
@@ -1787,7 +1788,7 @@
                             <div class="axil-product product-style-three">
                                 <div class="thumbnail">
                                     <a href="single-product.html">
-                                        <img data-sal="fade" data-sal-delay="100" data-sal-duration="1500" src="/static/images/product/jewellery/product-14.png" alt="Product Images">
+                                        <img data-sal="fade" data-sal-delay="100" data-sal-duration="1500" src="{% static 'images/product/jewellery/product-14.png' %}" alt="Product Images">
                                     </a>
                                     <div class="product-hover-action">
                                         <ul class="cart-action">
@@ -1842,7 +1843,7 @@
                         </div>
                         <div class="col-xl-7 col-lg-6">
                             <div class="poster-countdown-thumbnail">
-                                <img src="./assets/images/product/poster/poster-03.png" alt="Poster Product">
+                                <img src="{% static 'images/product/poster/poster-03.png' %}" alt="Poster Product">
                                 <div class="music-singnal">
                                     <div class="item-circle circle-1"></div>
                                     <div class="item-circle circle-2"></div>
@@ -1872,8 +1873,8 @@
                                 <div class="axil-product product-style-one">
                                     <div class="thumbnail">
                                         <a href="single-product.html">
-                                            <img data-sal="zoom-out" data-sal-delay="200" data-sal-duration="800" class="main-img" src="/static/images/product/electric/product-01.png" alt="Product Images">
-                                            <img class="hover-img" src="/static/images/product/electric/product-08.png" alt="Product Images">
+                                            <img data-sal="zoom-out" data-sal-delay="200" data-sal-duration="800" class="main-img" src="{% static 'images/product/electric/product-01.png' %}" alt="Product Images">
+                                            <img class="hover-img" src="{% static 'images/product/electric/product-08.png' %}" alt="Product Images">
                                         </a>
                                         <div class="label-block label-right">
                                             <div class="product-badget">20% Off</div>
@@ -1916,8 +1917,8 @@
                                 <div class="axil-product product-style-one">
                                     <div class="thumbnail">
                                         <a href="single-product.html">
-                                            <img data-sal="zoom-out" data-sal-delay="300" data-sal-duration="800" src="/static/images/product/fashion/product-15.png" alt="Product Images">
-                                            <img class="hover-img" src="/static/images/product/fashion/product-24.png" alt="Product Images">
+                                            <img data-sal="zoom-out" data-sal-delay="300" data-sal-duration="800" src="{% static 'images/product/fashion/product-15.png' %}" alt="Product Images">
+                                            <img class="hover-img" src="{% static 'images/product/fashion/product-24.png' %}" alt="Product Images">
                                         </a>
                                         <div class="product-hover-action">
                                             <ul class="cart-action">
@@ -1953,8 +1954,8 @@
                                 <div class="axil-product product-style-one">
                                     <div class="thumbnail">
                                         <a href="single-product.html">
-                                            <img data-sal="zoom-out" data-sal-delay="300" data-sal-duration="800" src="/static/images/product/furniture/product-1.png" alt="Product Images">
-                                            <img class="hover-img" src="/static/images/product/furniture/product-2.png" alt="Product Images">
+                                            <img data-sal="zoom-out" data-sal-delay="300" data-sal-duration="800" src="{% static 'images/product/furniture/product-1.png' %}" alt="Product Images">
+                                            <img class="hover-img" src="{% static 'images/product/furniture/product-2.png' %}" alt="Product Images">
                                         </a>
                                         <div class="label-block label-right">
                                             <div class="product-badget">20% Off</div>
@@ -1993,8 +1994,8 @@
                                 <div class="axil-product product-style-one">
                                     <div class="thumbnail">
                                         <a href="single-product.html">
-                                            <img data-sal="zoom-out" data-sal-delay="500" data-sal-duration="800" src="/static/images/product/jewellery/product-3.png" alt="Product Images">
-                                            <img class="hover-img" src="/static/images/product/jewellery/product-4.png" alt="Product Images">
+                                            <img data-sal="zoom-out" data-sal-delay="500" data-sal-duration="800" src="{% static 'images/product/jewellery/product-3.png' %}" alt="Product Images">
+                                            <img class="hover-img" src="{% static 'images/product/jewellery/product-4.png' %}" alt="Product Images">
                                         </a>
                                         <div class="product-hover-action">
                                             <ul class="cart-action">
@@ -2030,8 +2031,8 @@
                                 <div class="axil-product product-style-one">
                                     <div class="thumbnail">
                                         <a href="single-product.html">
-                                            <img data-sal="zoom-out" data-sal-delay="200" data-sal-duration="800" src="/static/images/product/fashion/product-10.png" alt="Product Images">
-                                            <img class="hover-img" src="/static/images/product/fashion/product-12.png" alt="Product Images">
+                                            <img data-sal="zoom-out" data-sal-delay="200" data-sal-duration="800" src="{% static 'images/product/fashion/product-10.png' %}" alt="Product Images">
+                                            <img class="hover-img" src="{% static 'images/product/fashion/product-12.png' %}" alt="Product Images">
                                         </a>
                                         <div class="label-block label-right">
                                             <div class="product-badget">20% Off</div>
@@ -2070,7 +2071,7 @@
                                 <div class="axil-product product-style-one">
                                     <div class="thumbnail">
                                         <a href="single-product.html">
-                                            <img data-sal="zoom-out" data-sal-delay="300" data-sal-duration="800" src="/static/images/product/fashion/product-16.png" alt="Product Images">
+                                            <img data-sal="zoom-out" data-sal-delay="300" data-sal-duration="800" src="{% static 'images/product/fashion/product-16.png' %}" alt="Product Images">
                                         </a>
                                         <div class="label-block label-right">
                                             <div class="product-badget">20% Off</div>
@@ -2109,8 +2110,8 @@
                                 <div class="axil-product product-style-one">
                                     <div class="thumbnail">
                                         <a href="single-product.html">
-                                            <img data-sal="zoom-out" data-sal-delay="400" data-sal-duration="800" src="/static/images/product/electric/product-07.png" alt="Product Images">
-                                            <img class="hover-img" src="/static/images/product/electric/product-08.png" alt="Product Images">
+                                            <img data-sal="zoom-out" data-sal-delay="400" data-sal-duration="800" src="{% static 'images/product/electric/product-07.png' %}" alt="Product Images">
+                                            <img class="hover-img" src="{% static 'images/product/electric/product-08.png' %}" alt="Product Images">
                                         </a>
                                         <div class="label-block label-right">
                                             <div class="product-badget">20% Off</div>
@@ -2149,7 +2150,7 @@
                                 <div class="axil-product product-style-one">
                                     <div class="thumbnail">
                                         <a href="single-product.html">
-                                            <img data-sal="zoom-out" data-sal-delay="500" data-sal-duration="800" src="/static/images/product/furniture/product-15.png" alt="Product Images">
+                                            <img data-sal="zoom-out" data-sal-delay="500" data-sal-duration="800" src="{% static 'images/product/furniture/product-15.png' %}" alt="Product Images">
                                         </a>
                                         <div class="label-block label-right">
                                             <div class="product-badget">20% Off</div>
@@ -2193,8 +2194,8 @@
                                 <div class="axil-product product-style-one">
                                     <div class="thumbnail">
                                         <a href="single-product.html">
-                                            <img data-sal="zoom-out" data-sal-delay="200" data-sal-duration="800" class="main-img" src="/static/images/product/electric/product-01.png" alt="Product Images">
-                                            <img class="hover-img" src="/static/images/product/electric/product-08.png" alt="Product Images">
+                                            <img data-sal="zoom-out" data-sal-delay="200" data-sal-duration="800" class="main-img" src="{% static 'images/product/electric/product-01.png' %}" alt="Product Images">
+                                            <img class="hover-img" src="{% static 'images/product/electric/product-08.png' %}" alt="Product Images">
                                         </a>
                                         <div class="label-block label-right">
                                             <div class="product-badget">20% Off</div>
@@ -2237,8 +2238,8 @@
                                 <div class="axil-product product-style-one">
                                     <div class="thumbnail">
                                         <a href="single-product.html">
-                                            <img data-sal="zoom-out" data-sal-delay="300" data-sal-duration="800" src="/static/images/product/fashion/product-15.png" alt="Product Images">
-                                            <img class="hover-img" src="/static/images/product/fashion/product-24.png" alt="Product Images">
+                                            <img data-sal="zoom-out" data-sal-delay="300" data-sal-duration="800" src="{% static 'images/product/fashion/product-15.png' %}" alt="Product Images">
+                                            <img class="hover-img" src="{% static 'images/product/fashion/product-24.png' %}" alt="Product Images">
                                         </a>
                                         <div class="product-hover-action">
                                             <ul class="cart-action">
@@ -2274,8 +2275,8 @@
                                 <div class="axil-product product-style-one">
                                     <div class="thumbnail">
                                         <a href="single-product.html">
-                                            <img data-sal="zoom-out" data-sal-delay="300" data-sal-duration="800" src="/static/images/product/furniture/product-1.png" alt="Product Images">
-                                            <img class="hover-img" src="/static/images/product/furniture/product-2.png" alt="Product Images">
+                                            <img data-sal="zoom-out" data-sal-delay="300" data-sal-duration="800" src="{% static 'images/product/furniture/product-1.png' %}" alt="Product Images">
+                                            <img class="hover-img" src="{% static 'images/product/furniture/product-2.png' %}" alt="Product Images">
                                         </a>
                                         <div class="label-block label-right">
                                             <div class="product-badget">20% Off</div>
@@ -2314,8 +2315,8 @@
                                 <div class="axil-product product-style-one">
                                     <div class="thumbnail">
                                         <a href="single-product.html">
-                                            <img data-sal="zoom-out" data-sal-delay="500" data-sal-duration="800" src="/static/images/product/jewellery/product-3.png" alt="Product Images">
-                                            <img class="hover-img" src="/static/images/product/jewellery/product-4.png" alt="Product Images">
+                                            <img data-sal="zoom-out" data-sal-delay="500" data-sal-duration="800" src="{% static 'images/product/jewellery/product-3.png' %}" alt="Product Images">
+                                            <img class="hover-img" src="{% static 'images/product/jewellery/product-4.png' %}" alt="Product Images">
                                         </a>
                                         <div class="product-hover-action">
                                             <ul class="cart-action">
@@ -2351,8 +2352,8 @@
                                 <div class="axil-product product-style-one">
                                     <div class="thumbnail">
                                         <a href="single-product.html">
-                                            <img data-sal="zoom-out" data-sal-delay="200" data-sal-duration="800" src="/static/images/product/fashion/product-10.png" alt="Product Images">
-                                            <img class="hover-img" src="/static/images/product/fashion/product-12.png" alt="Product Images">
+                                            <img data-sal="zoom-out" data-sal-delay="200" data-sal-duration="800" src="{% static 'images/product/fashion/product-10.png' %}" alt="Product Images">
+                                            <img class="hover-img" src="{% static 'images/product/fashion/product-12.png' %}" alt="Product Images">
                                         </a>
                                         <div class="label-block label-right">
                                             <div class="product-badget">20% Off</div>
@@ -2391,7 +2392,7 @@
                                 <div class="axil-product product-style-one">
                                     <div class="thumbnail">
                                         <a href="single-product.html">
-                                            <img data-sal="zoom-out" data-sal-delay="300" data-sal-duration="800" src="/static/images/product/fashion/product-16.png" alt="Product Images">
+                                            <img data-sal="zoom-out" data-sal-delay="300" data-sal-duration="800" src="{% static 'images/product/fashion/product-16.png' %}" alt="Product Images">
                                         </a>
                                         <div class="label-block label-right">
                                             <div class="product-badget">20% Off</div>
@@ -2430,8 +2431,8 @@
                                 <div class="axil-product product-style-one">
                                     <div class="thumbnail">
                                         <a href="single-product.html">
-                                            <img data-sal="zoom-out" data-sal-delay="400" data-sal-duration="800" src="/static/images/product/electric/product-07.png" alt="Product Images">
-                                            <img class="hover-img" src="/static/images/product/electric/product-08.png" alt="Product Images">
+                                            <img data-sal="zoom-out" data-sal-delay="400" data-sal-duration="800" src="{% static 'images/product/electric/product-07.png' %}" alt="Product Images">
+                                            <img class="hover-img" src="{% static 'images/product/electric/product-08.png' %}" alt="Product Images">
                                         </a>
                                         <div class="label-block label-right">
                                             <div class="product-badget">20% Off</div>
@@ -2470,7 +2471,7 @@
                                 <div class="axil-product product-style-one">
                                     <div class="thumbnail">
                                         <a href="single-product.html">
-                                            <img data-sal="zoom-out" data-sal-delay="500" data-sal-duration="800" src="/static/images/product/furniture/product-15.png" alt="Product Images">
+                                            <img data-sal="zoom-out" data-sal-delay="500" data-sal-duration="800" src="{% static 'images/product/furniture/product-15.png' %}" alt="Product Images">
                                         </a>
                                         <div class="label-block label-right">
                                             <div class="product-badget">20% Off</div>
@@ -2538,7 +2539,7 @@
                         </div>
                         <div class="media">
                             <div class="thumbnail">
-                                <img src="./assets/images/testimonial/image-1.png" alt="testimonial image">
+                                <img src="{% static 'images/testimonial/image-1.png' %}" alt="testimonial image">
                             </div>
                             <div class="media-body">
                                 <span class="designation">Head Of Idea</span>
@@ -2558,7 +2559,7 @@
                         </div>
                         <div class="media">
                             <div class="thumbnail">
-                                <img src="./assets/images/testimonial/image-2.png" alt="testimonial image">
+                                <img src="{% static 'images/testimonial/image-2.png' %}" alt="testimonial image">
                             </div>
                             <div class="media-body">
                                 <span class="designation">Head Of Idea</span>
@@ -2578,7 +2579,7 @@
                         </div>
                         <div class="media">
                             <div class="thumbnail">
-                                <img src="./assets/images/testimonial/image-3.png" alt="testimonial image">
+                                <img src="{% static 'images/testimonial/image-3.png' %}" alt="testimonial image">
                             </div>
                             <div class="media-body">
                                 <span class="designation">Head Of Idea</span>
@@ -2598,7 +2599,7 @@
                         </div>
                         <div class="media">
                             <div class="thumbnail">
-                                <img src="./assets/images/testimonial/image-2.png" alt="testimonial image">
+                                <img src="{% static 'images/testimonial/image-2.png' %}" alt="testimonial image">
                             </div>
                             <div class="media-body">
                                 <span class="designation">Head Of Idea</span>
@@ -2626,7 +2627,7 @@
                         <div class="axil-product product-style-two has-color-pick">
                             <div class="thumbnail">
                                 <a href="single-product.html">
-                                    <img data-sal="fade" data-sal-delay="100" data-sal-duration="1500" src="/static/images/product/fashion/product-14.png" alt="Product Images">
+                                    <img data-sal="fade" data-sal-delay="100" data-sal-duration="1500" src="{% static 'images/product/fashion/product-14.png' %}" alt="Product Images">
                                 </a>
                                 <div class="label-block label-right">
                                     <div class="product-badget">50% OFF</div>
@@ -2665,7 +2666,7 @@
                         <div class="axil-product product-style-two has-color-pick">
                             <div class="thumbnail">
                                 <a href="single-product.html">
-                                    <img data-sal="fade" data-sal-delay="200" data-sal-duration="1500" src="/static/images/product/fashion/product-15.png" alt="Product Images">
+                                    <img data-sal="fade" data-sal-delay="200" data-sal-duration="1500" src="{% static 'images/product/fashion/product-15.png' %}" alt="Product Images">
                                 </a>
                                 <div class="label-block label-right">
                                     <div class="product-badget">15% OFF</div>
@@ -2704,7 +2705,7 @@
                         <div class="axil-product product-style-two has-color-pick">
                             <div class="thumbnail">
                                 <a href="single-product.html">
-                                    <img data-sal="fade" data-sal-delay="300" data-sal-duration="1500" src="/static/images/product/fashion/product-4.png" alt="Product Images">
+                                    <img data-sal="fade" data-sal-delay="300" data-sal-duration="1500" src="{% static 'images/product/fashion/product-4.png' %}" alt="Product Images">
                                 </a>
                                 <div class="label-block label-right">
                                     <div class="product-badget">30% OFF</div>
@@ -2743,7 +2744,7 @@
                         <div class="axil-product product-style-two has-color-pick">
                             <div class="thumbnail">
                                 <a href="single-product.html">
-                                    <img data-sal="fade" data-sal-delay="400" data-sal-duration="1500" src="/static/images/product/fashion/product-5.png" alt="Product Images">
+                                    <img data-sal="fade" data-sal-delay="400" data-sal-duration="1500" src="{% static 'images/product/fashion/product-5.png' %}" alt="Product Images">
                                 </a>
                                 <div class="label-block label-right">
                                     <div class="product-badget">50% OFF</div>
@@ -2782,7 +2783,7 @@
                         <div class="axil-product product-style-two has-color-pick">
                             <div class="thumbnail">
                                 <a href="single-product.html">
-                                    <img data-sal="fade" data-sal-delay="100" data-sal-duration="1500" src="/static/images/product/fashion/product-10.png" alt="Product Images">
+                                    <img data-sal="fade" data-sal-delay="100" data-sal-duration="1500" src="{% static 'images/product/fashion/product-10.png' %}" alt="Product Images">
                                 </a>
                                 <div class="label-block label-right">
                                     <div class="product-badget">10% OFF</div>
@@ -2821,7 +2822,7 @@
                         <div class="axil-product product-style-two has-color-pick">
                             <div class="thumbnail">
                                 <a href="single-product.html">
-                                    <img data-sal="fade" data-sal-delay="200" data-sal-duration="1500" src="/static/images/product/fashion/product-11.png" alt="Product Images">
+                                    <img data-sal="fade" data-sal-delay="200" data-sal-duration="1500" src="{% static 'images/product/fashion/product-11.png' %}" alt="Product Images">
                                 </a>
                                 <div class="label-block label-right">
                                     <div class="product-badget">25% OFF</div>
@@ -2860,7 +2861,7 @@
                         <div class="axil-product product-style-two has-color-pick">
                             <div class="thumbnail">
                                 <a href="single-product.html">
-                                    <img data-sal="fade" data-sal-delay="300" data-sal-duration="1500" src="/static/images/product/fashion/product-12.png" alt="Product Images">
+                                    <img data-sal="fade" data-sal-delay="300" data-sal-duration="1500" src="{% static 'images/product/fashion/product-12.png' %}" alt="Product Images">
                                 </a>
                                 <div class="label-block label-right">
                                     <div class="product-badget">15% OFF</div>
@@ -2899,7 +2900,7 @@
                         <div class="axil-product product-style-two has-color-pick">
                             <div class="thumbnail">
                                 <a href="single-product.html">
-                                    <img data-sal="fade" data-sal-delay="400" data-sal-duration="1500" src="/static/images/product/fashion/product-13.png" alt="Product Images">
+                                    <img data-sal="fade" data-sal-delay="400" data-sal-duration="1500" src="{% static 'images/product/fashion/product-13.png' %}" alt="Product Images">
                                 </a>
                                 <div class="label-block label-right">
                                     <div class="product-badget">30% OFF</div>
@@ -2968,7 +2969,7 @@
                 <div class="col">
                     <div class="service-box service-style-2">
                         <div class="icon">
-                            <img src="./assets/images/icons/service1.png" alt="Service">
+                            <img src="{% static 'images/icons/service1.png' %}" alt="Service">
                         </div>
                         <div class="content">
                             <h6 class="title">Fast &amp; Secure Delivery</h6>
@@ -2979,7 +2980,7 @@
                 <div class="col">
                     <div class="service-box service-style-2">
                         <div class="icon">
-                            <img src="./assets/images/icons/service2.png" alt="Service">
+                            <img src="{% static 'images/icons/service2.png' %}" alt="Service">
                         </div>
                         <div class="content">
                             <h6 class="title">Money Back Guarantee</h6>
@@ -2990,7 +2991,7 @@
                 <div class="col">
                     <div class="service-box service-style-2">
                         <div class="icon">
-                            <img src="./assets/images/icons/service3.png" alt="Service">
+                            <img src="{% static 'images/icons/service3.png' %}" alt="Service">
                         </div>
                         <div class="content">
                             <h6 class="title">24 Hour Return Policy</h6>
@@ -3001,7 +3002,7 @@
                 <div class="col">
                     <div class="service-box service-style-2">
                         <div class="icon">
-                            <img src="./assets/images/icons/service4.png" alt="Service">
+                            <img src="{% static 'images/icons/service4.png' %}" alt="Service">
                         </div>
                         <div class="content">
                             <h6 class="title">Pro Quality Support</h6>
@@ -3126,11 +3127,11 @@
                         <div class="payment-method">
                             <h6 class="title">Accept <br> For</h6>
                             <ul class="payment-icons">
-                                <li><img src="/static/images/icons/cart/cart-1.png" alt="paypal cart"></li>
-                                <li><img src="/static/images/icons/cart/cart-2.png" alt="paypal cart"></li>
-                                <li><img src="/static/images/icons/cart/cart-3.png" alt="paypal cart"></li>
-                                <li><img src="/static/images/icons/cart/cart-4.png" alt="paypal cart"></li>
-                                <li><img src="/static/images/icons/cart/cart-5.png" alt="paypal cart"></li>
+                                <li><img src="{% static 'images/icons/cart/cart-1.png' %}" alt="paypal cart"></li>
+                                <li><img src="{% static 'images/icons/cart/cart-2.png' %}" alt="paypal cart"></li>
+                                <li><img src="{% static 'images/icons/cart/cart-3.png' %}" alt="paypal cart"></li>
+                                <li><img src="{% static 'images/icons/cart/cart-4.png' %}" alt="paypal cart"></li>
+                                <li><img src="{% static 'images/icons/cart/cart-5.png' %}" alt="paypal cart"></li>
                             </ul>
                         </div>
                     </div>
@@ -3181,7 +3182,7 @@
                                     <div class="col-lg-10 order-lg-2">
                                         <div class="single-product-thumbnail product-large-thumbnail axil-product thumbnail-badge zoom-gallery">
                                             <div class="thumbnail">
-                                                <img src="/static/images/product/product-big-01.png" alt="Product Images">
+                                                <img src="{% static 'images/product/product-big-01.png' %}" alt="Product Images">
                                                 <div class="label-block label-right">
                                                     <div class="product-badget">20% OFF</div>
                                                 </div>
@@ -3192,7 +3193,7 @@
                                                 </div>
                                             </div>
                                             <div class="thumbnail">
-                                                <img src="/static/images/product/product-big-02.png" alt="Product Images">
+                                                <img src="{% static 'images/product/product-big-02.png' %}" alt="Product Images">
                                                 <div class="label-block label-right">
                                                     <div class="product-badget">20% OFF</div>
                                                 </div>
@@ -3203,7 +3204,7 @@
                                                 </div>
                                             </div>
                                             <div class="thumbnail">
-                                                <img src="/static/images/product/product-big-03.png" alt="Product Images">
+                                                <img src="{% static 'images/product/product-big-03.png' %}" alt="Product Images">
                                                 <div class="label-block label-right">
                                                     <div class="product-badget">20% OFF</div>
                                                 </div>
@@ -3218,13 +3219,13 @@
                                     <div class="col-lg-2 order-lg-1">
                                         <div class="product-small-thumb small-thumb-wrapper">
                                             <div class="small-thumb-img">
-                                                <img src="/static/images/product/product-thumb/thumb-08.png" alt="thumb image">
+                                                <img src="{% static 'images/product/product-thumb/thumb-08.png' %}" alt="thumb image">
                                             </div>
                                             <div class="small-thumb-img">
-                                                <img src="/static/images/product/product-thumb/thumb-07.png" alt="thumb image">
+                                                <img src="{% static 'images/product/product-thumb/thumb-07.png' %}" alt="thumb image">
                                             </div>
                                             <div class="small-thumb-img">
-                                                <img src="/static/images/product/product-thumb/thumb-09.png" alt="thumb image">
+                                                <img src="{% static 'images/product/product-thumb/thumb-09.png' %}" alt="thumb image">
                                             </div>
                                         </div>
                                     </div>
@@ -3235,7 +3236,7 @@
                                     <div class="inner">
                                         <div class="product-rating">
                                             <div class="star-rating">
-                                                <img src="/static/images/icons/rate.png" alt="Rate Images">
+                                                <img src="{% static 'images/icons/rate.png' %}" alt="Rate Images">
                                             </div>
                                             <div class="review-link">
                                                 <a href="#">(<span>1</span> customer reviews)</a>
@@ -3330,7 +3331,7 @@
                     <div class="axil-product-list">
                         <div class="thumbnail">
                             <a href="single-product.html">
-                                <img src="./assets/images/product/electric/product-09.png" alt="Yantiti Leather Bags">
+                                <img src="{% static 'images/product/electric/product-09.png' %}" alt="Yantiti Leather Bags">
                             </a>
                         </div>
                         <div class="product-content">
@@ -3358,7 +3359,7 @@
                     <div class="axil-product-list">
                         <div class="thumbnail">
                             <a href="single-product.html">
-                                <img src="./assets/images/product/electric/product-09.png" alt="Yantiti Leather Bags">
+                                <img src="{% static 'images/product/electric/product-09.png' %}" alt="Yantiti Leather Bags">
                             </a>
                         </div>
                         <div class="product-content">
@@ -3401,7 +3402,7 @@
                 <ul class="cart-item-list">
                     <li class="cart-item">
                         <div class="item-img">
-                            <a href="single-product.html"><img src="/static/images/product/electric/product-01.png" alt="Commodo Blown Lamp"></a>
+                            <a href="single-product.html"><img src="{% static 'images/product/electric/product-01.png' %}" alt="Commodo Blown Lamp"></a>
                             <button class="close-btn"><i class="fas fa-times"></i></button>
                         </div>
                         <div class="item-content">
@@ -3424,7 +3425,7 @@
                     </li>
                     <li class="cart-item">
                         <div class="item-img">
-                            <a href="single-product-2.html"><img src="/static/images/product/electric/product-02.png" alt="Commodo Blown Lamp"></a>
+                            <a href="single-product-2.html"><img src="{% static 'images/product/electric/product-02.png' %}" alt="Commodo Blown Lamp"></a>
                             <button class="close-btn"><i class="fas fa-times"></i></button>
                         </div>
                         <div class="item-content">
@@ -3447,7 +3448,7 @@
                     </li>
                     <li class="cart-item">
                         <div class="item-img">
-                            <a href="single-product-3.html"><img src="/static/images/product/electric/product-03.png" alt="Commodo Blown Lamp"></a>
+                            <a href="single-product-3.html"><img src="{% static 'images/product/electric/product-03.png' %}" alt="Commodo Blown Lamp"></a>
                             <button class="close-btn"><i class="fas fa-times"></i></button>
                         </div>
                         <div class="item-content">
@@ -3487,27 +3488,27 @@
     <!-- JS
 ============================================ -->
     <!-- Modernizer JS -->
-    <script src="/static/js/vendor/modernizr.min.js"></script>
+    <script src="{% static 'js/vendor/modernizr.min.js' %}"></script>
     <!-- jQuery JS -->
-    <script src="/static/js/vendor/jquery.js"></script>
+    <script src="{% static 'js/vendor/jquery.js' %}"></script>
     <!-- Bootstrap JS -->
-    <script src="/static/js/vendor/popper.min.js"></script>
-    <script src="/static/js/vendor/bootstrap.min.js"></script>
-    <script src="/static/js/vendor/slick.min.js"></script>
-    <script src="/static/js/vendor/js.cookie.js"></script>
-    <!-- <script src="/static/js/vendor/jquery.style.switcher.js"></script> -->
-    <script src="/static/js/vendor/jquery-ui.min.js"></script>
-    <script src="/static/js/vendor/jquery.ui.touch-punch.min.js"></script>
-    <script src="/static/js/vendor/jquery.countdown.min.js"></script>
-    <script src="/static/js/vendor/sal.js"></script>
-    <script src="/static/js/vendor/jquery.magnific-popup.min.js"></script>
-    <script src="/static/js/vendor/imagesloaded.pkgd.min.js"></script>
-    <script src="/static/js/vendor/isotope.pkgd.min.js"></script>
-    <script src="/static/js/vendor/counterup.js"></script>
-    <script src="/static/js/vendor/waypoints.min.js"></script>
+    <script src="{% static 'js/vendor/popper.min.js' %}"></script>
+    <script src="{% static 'js/vendor/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/vendor/slick.min.js' %}"></script>
+    <script src="{% static 'js/vendor/js.cookie.js' %}"></script>
+    <!-- <script src="{% static 'js/vendor/jquery.style.switcher.js' %}"></script> -->
+    <script src="{% static 'js/vendor/jquery-ui.min.js' %}"></script>
+    <script src="{% static 'js/vendor/jquery.ui.touch-punch.min.js' %}"></script>
+    <script src="{% static 'js/vendor/jquery.countdown.min.js' %}"></script>
+    <script src="{% static 'js/vendor/sal.js' %}"></script>
+    <script src="{% static 'js/vendor/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'js/vendor/imagesloaded.pkgd.min.js' %}"></script>
+    <script src="{% static 'js/vendor/isotope.pkgd.min.js' %}"></script>
+    <script src="{% static 'js/vendor/counterup.js' %}"></script>
+    <script src="{% static 'js/vendor/waypoints.min.js' %}"></script>
 
     <!-- Main JS -->
-    <script src="/static/js/main.js"></script>
+    <script src="{% static 'js/main.js' %}"></script>
 
 </body>
 

@@ -20,6 +20,8 @@ urlpatterns = [
     
     # Frontend pages
     path('', views.HomeView.as_view(), name='home'),
+    path('index-1/', views.Home1View.as_view(), name='home_1'),
+    path('index-6/', views.Home6View.as_view(), name='home_6'),
     path('shop/', views.ShopView.as_view(), name='shop'),
     path('shop/sidebar/', views.ShopSidebarView.as_view(), name='shop_sidebar'),
     path('product/<slug:slug>/', views.ProductDetailView.as_view(), name='product_detail'),
@@ -39,6 +41,9 @@ urlpatterns = [
     path('privacy-policy/', views.PrivacyPolicyView.as_view(), name='privacy_policy'),
     path('terms-of-service/', views.TermsOfServiceView.as_view(), name='terms_of_service'),
     path('coming-soon/', views.ComingSoonView.as_view(), name='coming_soon'),
+    
+    # Catch-all for any .html files (serve by filename)
+    path('<str:filename>.html', views.GenericTemplateView.as_view(), name='template'),
 ]
 
 # Serve media and static files in development

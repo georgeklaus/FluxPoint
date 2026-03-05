@@ -1,3 +1,4 @@
+{% load static %}
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -16,16 +17,16 @@
 
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/static/css/vendor/bootstrap.min.css">
-    <link rel="stylesheet" href="/static/css/vendor/font-awesome.css">
-    <link rel="stylesheet" href="/static/css/vendor/flaticon/flaticon.css">
-    <link rel="stylesheet" href="/static/css/vendor/slick.css">
-    <link rel="stylesheet" href="/static/css/vendor/slick-theme.css">
-    <link rel="stylesheet" href="/static/css/vendor/jquery-ui.min.css">
-    <link rel="stylesheet" href="/static/css/vendor/sal.css">
-    <link rel="stylesheet" href="/static/css/vendor/magnific-popup.css">
-    <link rel="stylesheet" href="/static/css/vendor/base.css">
-    <link rel="stylesheet" href="/static/css/style.min.css">
+    <link rel="stylesheet" href="{% static 'css/vendor/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/vendor/font-awesome.css' %}">
+    <link rel="stylesheet" href="{% static 'css/vendor/flaticon/flaticon.css' %}">
+    <link rel="stylesheet" href="{% static 'css/vendor/slick.css' %}">
+    <link rel="stylesheet" href="{% static 'css/vendor/slick-theme.css' %}">
+    <link rel="stylesheet" href="{% static 'css/vendor/jquery-ui.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/vendor/sal.css' %}">
+    <link rel="stylesheet" href="{% static 'css/vendor/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'css/vendor/base.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.min.css' %}">
 
 </head>
 
@@ -83,10 +84,10 @@
                 <div class="header-navbar">
                     <div class="header-brand">
                         <a href="index.html" class="logo logo-dark">
-                            <img src="/static/images/logo/logo.png" alt="Site Logo">
+                            <img src="{% static 'images/logo/logo.png' %}" alt="Site Logo">
                         </a>
                         <a href="index.html" class="logo logo-light">
-                            <img src="/static/images/logo/logo-light.png" alt="Site Logo">
+                            <img src="{% static 'images/logo/logo-light.png' %}" alt="Site Logo">
                         </a>
                     </div>
                     <div class="header-main-nav">
@@ -95,7 +96,7 @@
                             <button class="mobile-close-btn mobile-nav-toggler"><i class="fas fa-times"></i></button>
                             <div class="mobile-nav-brand">
                                 <a href="index.html" class="logo">
-                                    <img src="/static/images/logo/logo.png" alt="Site Logo">
+                                    <img src="{% static 'images/logo/logo.png' %}" alt="Site Logo">
                                 </a>
                             </div>
                             <ul class="mainmenu">
@@ -261,7 +262,7 @@
                     <div class="col-lg-6 col-md-4">
                         <div class="inner">
                             <div class="bradcrumb-thumb">
-                                <img src="/static/images/product/product-45.png" alt="Image">
+                                <img src="{% static 'images/product/product-45.png' %}" alt="Image">
                             </div>
                         </div>
                     </div>
@@ -277,7 +278,7 @@
                     <div class="col-xl-4 col-lg-6">
                         <div class="about-thumbnail">
                             <div class="thumbnail">
-                                <img src="./assets/images/about/company image-1.jpeg" alt="About Us">
+                                <img src="{% static 'images/about/company image-1.jpeg' %}" alt="About Us">
                             </div>
                         </div>
                     </div>
@@ -321,7 +322,7 @@
                     <div class="col-lg-4">
                         <div class="about-info-box">
                             <div class="thumb">
-                                <img src="/static/images/about/shape-01.png" alt="Shape">
+                                <img src="{% static 'images/about/shape-01.png' %}" alt="Shape">
                             </div>
                             <div class="content">
                                 <h6 class="title">40,000+ Happy Customer</h6>
@@ -333,7 +334,7 @@
                     <div class="col-lg-4">
                         <div class="about-info-box">
                             <div class="thumb">
-                                <img src="/static/images/about/shape-02.png" alt="Shape">
+                                <img src="{% static 'images/about/shape-02.png' %}" alt="Shape">
                             </div>
                             <div class="content">
                                 <h6 class="title">5 Years of Experiences</h6>
@@ -345,7 +346,7 @@
                     <div class="col-lg-4">
                         <div class="about-info-box">
                             <div class="thumb">
-                                <img src="/static/images/about/shape-03.png" alt="Shape">
+                                <img src="{% static 'images/about/shape-03.png' %}" alt="Shape">
                             </div>
                             <div class="content">
                                 <h6 class="title">2 Awards Won</h6>
@@ -370,7 +371,7 @@
                     <div class="team-slide-activation slick-layout-wrapper--20 axil-slick-arrow  arrow-top-slide">
                         <div class="slick-single-layout">
                             <div class="axil-team-member">
-                                <div class="thumbnail"><img src="./assets/images/team/founder-1.jpeg" alt="Cody Fisher"></div>
+                                <div class="thumbnail"><img src="{% static 'images/team/founder-1.jpeg' %}" alt="Cody Fisher"></div>
                                 <div class="team-content">
                                     <span class="subtitle">Founder</span>
                                     <h5 class="title">Alfred Salim Odhiambo</h5>
@@ -379,7 +380,7 @@
                         </div>
                         <div class="slick-single-layout">
                             <div class="axil-team-member">
-                                <div class="thumbnail"><img src="./assets/images/team/founder-1.jpeg" alt="Cody Fisher"></div>
+                                <div class="thumbnail"><img src="{% static 'images/team/founder-1.jpeg' %}" alt="Cody Fisher"></div>
                                 <div class="team-content">
                                     <span class="subtitle">CEO</span>
                                     <h5 class="title">Alfred Salim Odhiambo</h5>
@@ -388,7 +389,7 @@
                         </div>
                         <div class="slick-single-layout">
                             <div class="axil-team-member">
-                                <div class="thumbnail"><img src="./assets/images/team/team-03.png" alt="Cody Fisher"></div>
+                                <div class="thumbnail"><img src="{% static 'images/team/team-03.png' %}" alt="Cody Fisher"></div>
                                 <div class="team-content">
                                     <span class="subtitle">Designer</span>
                                     <h5 class="title">George Rubinga</h5>
@@ -397,7 +398,7 @@
                         </div>
                         <div class="slick-single-layout">
                             <div class="axil-team-member">
-                                <div class="thumbnail"><img src="./assets/images/team/team-04.png" alt="Cody Fisher"></div>
+                                <div class="thumbnail"><img src="{% static 'images/team/team-04.png' %}" alt="Cody Fisher"></div>
                                 <div class="team-content">
                                     <span class="subtitle">Designer</span>
                                     <h5 class="title">George Rubinga</h5>
@@ -406,7 +407,7 @@
                         </div>
                         <div class="slick-single-layout">
                             <div class="axil-team-member">
-                                <div class="thumbnail"><img src="./assets/images/team/team-02.png" alt="Cody Fisher"></div>
+                                <div class="thumbnail"><img src="{% static 'images/team/team-02.png' %}" alt="Cody Fisher"></div>
                                 <div class="team-content">
                                     <span class="subtitle">Designer</span>
                                     <h5 class="title">Alfred Salim</h5>
@@ -425,7 +426,7 @@
                 <div class="row align-items-center mb--80 mb_sm--60">
                     <div class="col-lg-5">
                         <div class="about-thumbnail">
-                            <img src="/static/images/about/about-02.png" alt="about">
+                            <img src="{% static 'images/about/about-02.png' %}" alt="about">
                         </div>
                     </div>
                     <div class="col-lg-7">
@@ -443,7 +444,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-5 order-lg-2">
                         <div class="about-thumbnail">
-                            <img src="/static/images/about/about-03.png" alt="about">
+                            <img src="{% static 'images/about/about-03.png' %}" alt="about">
                         </div>
                     </div>
                     <div class="col-lg-7 order-lg-1">
@@ -490,7 +491,7 @@
                 <div class="col">
                     <div class="service-box service-style-2">
                         <div class="icon">
-                            <img src="./assets/images/icons/service1.png" alt="Service">
+                            <img src="{% static 'images/icons/service1.png' %}" alt="Service">
                         </div>
                         <div class="content">
                             <h6 class="title">Fast &amp; Secure Delivery</h6>
@@ -501,7 +502,7 @@
                 <div class="col">
                     <div class="service-box service-style-2">
                         <div class="icon">
-                            <img src="./assets/images/icons/service2.png" alt="Service">
+                            <img src="{% static 'images/icons/service2.png' %}" alt="Service">
                         </div>
                         <div class="content">
                             <h6 class="title">Money Back Guarantee</h6>
@@ -512,7 +513,7 @@
                 <div class="col">
                     <div class="service-box service-style-2">
                         <div class="icon">
-                            <img src="./assets/images/icons/service3.png" alt="Service">
+                            <img src="{% static 'images/icons/service3.png' %}" alt="Service">
                         </div>
                         <div class="content">
                             <h6 class="title">24 Hour Return Policy</h6>
@@ -523,7 +524,7 @@
                 <div class="col">
                     <div class="service-box service-style-2">
                         <div class="icon">
-                            <img src="./assets/images/icons/service4.png" alt="Service">
+                            <img src="{% static 'images/icons/service4.png' %}" alt="Service">
                         </div>
                         <div class="content">
                             <h6 class="title">Pro Quality Support</h6>
@@ -546,7 +547,7 @@
                             <h5 class="widget-title">Support</h5>
                             <!-- <div class="logo mb--30">
                             <a href="index.html">
-                                <img class="light-logo" src="/static/images/logo/logo.png" alt="Logo Images">
+                                <img class="light-logo" src="{% static 'images/logo/logo.png' %}" alt="Logo Images">
                             </a>
                         </div> -->
                             <div class="inner">
@@ -603,14 +604,14 @@
                                 <span>Save $3 With App & New User only</span>
                                 <div class="download-btn-group">
                                     <div class="qr-code">
-                                        <img src="/static/images/others/qr.png" alt="Axilthemes">
+                                        <img src="{% static 'images/others/qr.png' %}" alt="Axilthemes">
                                     </div>
                                     <div class="app-link">
                                         <a href="#">
-                                            <img src="/static/images/others/app-store.png" alt="App Store">
+                                            <img src="{% static 'images/others/app-store.png' %}" alt="App Store">
                                         </a>
                                         <a href="#">
-                                            <img src="/static/images/others/play-store.png" alt="Play Store">
+                                            <img src="{% static 'images/others/play-store.png' %}" alt="Play Store">
                                         </a>
                                     </div>
                                 </div>
@@ -646,9 +647,9 @@
                         <div class="copyright-right d-flex flex-wrap justify-content-xl-end justify-content-center align-items-center">
                             <span class="card-text">Accept For</span>
                             <ul class="payment-icons-bottom quick-link">
-                                <li><img src="/static/images/icons/cart/cart-1.png" alt="paypal cart"></li>
-                                <li><img src="/static/images/icons/cart/cart-2.png" alt="paypal cart"></li>
-                                <li><img src="/static/images/icons/cart/cart-5.png" alt="paypal cart"></li>
+                                <li><img src="{% static 'images/icons/cart/cart-1.png' %}" alt="paypal cart"></li>
+                                <li><img src="{% static 'images/icons/cart/cart-2.png' %}" alt="paypal cart"></li>
+                                <li><img src="{% static 'images/icons/cart/cart-5.png' %}" alt="paypal cart"></li>
                             </ul>
                         </div>
                     </div>
@@ -674,7 +675,7 @@
                                     <div class="col-lg-10 order-lg-2">
                                         <div class="single-product-thumbnail product-large-thumbnail axil-product thumbnail-badge zoom-gallery">
                                             <div class="thumbnail">
-                                                <img src="/static/images/product/product-big-01.png" alt="Product Images">
+                                                <img src="{% static 'images/product/product-big-01.png' %}" alt="Product Images">
                                                 <div class="label-block label-right">
                                                     <div class="product-badget">20% OFF</div>
                                                 </div>
@@ -685,7 +686,7 @@
                                                 </div>
                                             </div>
                                             <div class="thumbnail">
-                                                <img src="/static/images/product/product-big-02.png" alt="Product Images">
+                                                <img src="{% static 'images/product/product-big-02.png' %}" alt="Product Images">
                                                 <div class="label-block label-right">
                                                     <div class="product-badget">20% OFF</div>
                                                 </div>
@@ -696,7 +697,7 @@
                                                 </div>
                                             </div>
                                             <div class="thumbnail">
-                                                <img src="/static/images/product/product-big-03.png" alt="Product Images">
+                                                <img src="{% static 'images/product/product-big-03.png' %}" alt="Product Images">
                                                 <div class="label-block label-right">
                                                     <div class="product-badget">20% OFF</div>
                                                 </div>
@@ -711,13 +712,13 @@
                                     <div class="col-lg-2 order-lg-1">
                                         <div class="product-small-thumb small-thumb-wrapper">
                                             <div class="small-thumb-img">
-                                                <img src="/static/images/product/product-thumb/thumb-08.png" alt="thumb image">
+                                                <img src="{% static 'images/product/product-thumb/thumb-08.png' %}" alt="thumb image">
                                             </div>
                                             <div class="small-thumb-img">
-                                                <img src="/static/images/product/product-thumb/thumb-07.png" alt="thumb image">
+                                                <img src="{% static 'images/product/product-thumb/thumb-07.png' %}" alt="thumb image">
                                             </div>
                                             <div class="small-thumb-img">
-                                                <img src="/static/images/product/product-thumb/thumb-09.png" alt="thumb image">
+                                                <img src="{% static 'images/product/product-thumb/thumb-09.png' %}" alt="thumb image">
                                             </div>
                                         </div>
                                     </div>
@@ -728,7 +729,7 @@
                                     <div class="inner">
                                         <div class="product-rating">
                                             <div class="star-rating">
-                                                <img src="/static/images/icons/rate.png" alt="Rate Images">
+                                                <img src="{% static 'images/icons/rate.png' %}" alt="Rate Images">
                                             </div>
                                             <div class="review-link">
                                                 <a href="#">(<span>1</span> customer reviews)</a>
@@ -823,7 +824,7 @@
                     <div class="axil-product-list">
                         <div class="thumbnail">
                             <a href="single-product.html">
-                                <img src="./assets/images/product/electric/product-09.png" alt="Yantiti Leather Bags">
+                                <img src="{% static 'images/product/electric/product-09.png' %}" alt="Yantiti Leather Bags">
                             </a>
                         </div>
                         <div class="product-content">
@@ -851,7 +852,7 @@
                     <div class="axil-product-list">
                         <div class="thumbnail">
                             <a href="single-product.html">
-                                <img src="./assets/images/product/electric/product-09.png" alt="Yantiti Leather Bags">
+                                <img src="{% static 'images/product/electric/product-09.png' %}" alt="Yantiti Leather Bags">
                             </a>
                         </div>
                         <div class="product-content">
@@ -894,7 +895,7 @@
                 <ul class="cart-item-list">
                     <li class="cart-item">
                         <div class="item-img">
-                            <a href="single-product.html"><img src="/static/images/product/electric/product-01.png" alt="Commodo Blown Lamp"></a>
+                            <a href="single-product.html"><img src="{% static 'images/product/electric/product-01.png' %}" alt="Commodo Blown Lamp"></a>
                             <button class="close-btn"><i class="fas fa-times"></i></button>
                         </div>
                         <div class="item-content">
@@ -917,7 +918,7 @@
                     </li>
                     <li class="cart-item">
                         <div class="item-img">
-                            <a href="single-product-2.html"><img src="/static/images/product/electric/product-02.png" alt="Commodo Blown Lamp"></a>
+                            <a href="single-product-2.html"><img src="{% static 'images/product/electric/product-02.png' %}" alt="Commodo Blown Lamp"></a>
                             <button class="close-btn"><i class="fas fa-times"></i></button>
                         </div>
                         <div class="item-content">
@@ -940,7 +941,7 @@
                     </li>
                     <li class="cart-item">
                         <div class="item-img">
-                            <a href="single-product-3.html"><img src="/static/images/product/electric/product-03.png" alt="Commodo Blown Lamp"></a>
+                            <a href="single-product-3.html"><img src="{% static 'images/product/electric/product-03.png' %}" alt="Commodo Blown Lamp"></a>
                             <button class="close-btn"><i class="fas fa-times"></i></button>
                         </div>
                         <div class="item-content">
@@ -979,27 +980,27 @@
     <!-- JS
 ============================================ -->
     <!-- Modernizer JS -->
-    <script src="/static/js/vendor/modernizr.min.js"></script>
+    <script src="{% static 'js/vendor/modernizr.min.js' %}"></script>
     <!-- jQuery JS -->
-    <script src="/static/js/vendor/jquery.js"></script>
+    <script src="{% static 'js/vendor/jquery.js' %}"></script>
     <!-- Bootstrap JS -->
-    <script src="/static/js/vendor/popper.min.js"></script>
-    <script src="/static/js/vendor/bootstrap.min.js"></script>
-    <script src="/static/js/vendor/slick.min.js"></script>
-    <script src="/static/js/vendor/js.cookie.js"></script>
-    <!-- <script src="/static/js/vendor/jquery.style.switcher.js"></script> -->
-    <script src="/static/js/vendor/jquery-ui.min.js"></script>
-    <script src="/static/js/vendor/jquery.ui.touch-punch.min.js"></script>
-    <script src="/static/js/vendor/jquery.countdown.min.js"></script>
-    <script src="/static/js/vendor/sal.js"></script>
-    <script src="/static/js/vendor/jquery.magnific-popup.min.js"></script>
-    <script src="/static/js/vendor/imagesloaded.pkgd.min.js"></script>
-    <script src="/static/js/vendor/isotope.pkgd.min.js"></script>
-    <script src="/static/js/vendor/counterup.js"></script>
-    <script src="/static/js/vendor/waypoints.min.js"></script>
+    <script src="{% static 'js/vendor/popper.min.js' %}"></script>
+    <script src="{% static 'js/vendor/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/vendor/slick.min.js' %}"></script>
+    <script src="{% static 'js/vendor/js.cookie.js' %}"></script>
+    <!-- <script src="{% static 'js/vendor/jquery.style.switcher.js' %}"></script> -->
+    <script src="{% static 'js/vendor/jquery-ui.min.js' %}"></script>
+    <script src="{% static 'js/vendor/jquery.ui.touch-punch.min.js' %}"></script>
+    <script src="{% static 'js/vendor/jquery.countdown.min.js' %}"></script>
+    <script src="{% static 'js/vendor/sal.js' %}"></script>
+    <script src="{% static 'js/vendor/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'js/vendor/imagesloaded.pkgd.min.js' %}"></script>
+    <script src="{% static 'js/vendor/isotope.pkgd.min.js' %}"></script>
+    <script src="{% static 'js/vendor/counterup.js' %}"></script>
+    <script src="{% static 'js/vendor/waypoints.min.js' %}"></script>
 
     <!-- Main JS -->
-    <script src="/static/js/main.js"></script>
+    <script src="{% static 'js/main.js' %}"></script>
 
 </body>
 
